@@ -1,4 +1,4 @@
-# WILLIFY_Song-Player_Website_Project
+# WILLIFY_Song_Player_Website_Project
 
 **This is The Official Repository For Willify, the Music Player Website**
 
