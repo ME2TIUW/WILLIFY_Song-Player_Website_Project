@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Willify : All in One Song Player</title>
+    <link rel="stylesheet" href="../CSS/general.css" />
+    <link rel="stylesheet" href="../CSS/details.css" />
+
+    <link
+      rel="icon"
+      href="../../Assets/Website Resources/Logo /WILLIFY_LOGO_WHITE_CURVED.ico" />
+  </head>
+  <body>
+    <div class="section">
+      <!-- <div class="overlay hidden"></div> -->
+      <!-- resizer section 1 sama 2 -->
+      <div class="section--1">
+        <div class="resize--1"></div>
+        <!-- section 1 contents = logo willify, tulisan willify, sidebar menus ()-->
+        <a href="home.html" class="logo-anchor">
+          <img
+            src="../../Assets/Website Resources/Logo /WILLIFY_LOGO_WHITE.ico"
+            alt="willify  logo"
+            class="willify_logo_img" />
+          <h1>Willify</h1>
+        </a>
+
+        <!-- //side navigation -->
+        <nav>
+          <ul class="home-nav">
+            <li class="nav-items nav-home">
+              <a href="home.html" target="_self" class="nav-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6">
+                  <path
+                    d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
+                  <path
+                    d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
+                </svg>
+                Home
+              </a>
+            </li>
+            <li class="nav-items nav-songs">
+              <a href="songs.html" target="_self" class="nav-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6">
+                  <path
+                    fill-rule="evenodd"
+                    d="M19.952 1.651a.75.75 0 0 1 .298.599V16.303a3 3 0 0 1-2.176 2.884l-1.32.377a2.553 2.553 0 1 1-1.403-4.909l2.311-.66a1.5 1.5 0 0 0 1.088-1.442V6.994l-9 2.572v9.737a3 3 0 0 1-2.176 2.884l-1.32.377a2.553 2.553 0 1 1-1.402-4.909l2.31-.66a1.5 1.5 0 0 0 1.088-1.442V5.25a.75.75 0 0 1 .544-.721l10.5-3a.75.75 0 0 1 .658.122Z"
+                    clip-rule="evenodd" />
+                </svg>
+                Songs
+              </a>
+            </li>
+            <li class="nav-items nav-songs-details">
+              <a href="details.html" target="_self" class="nav-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6">
+                  <path
+                    fill-rule="evenodd"
+                    d="M8.161 2.58a1.875 1.875 0 0 1 1.678 0l4.993 2.498c.106.052.23.052.336 0l3.869-1.935A1.875 1.875 0 0 1 21.75 4.82v12.485c0 .71-.401 1.36-1.037 1.677l-4.875 2.437a1.875 1.875 0 0 1-1.676 0l-4.994-2.497a.375.375 0 0 0-.336 0l-3.868 1.935A1.875 1.875 0 0 1 2.25 19.18V6.695c0-.71.401-1.36 1.036-1.677l4.875-2.437ZM9 6a.75.75 0 0 1 .75.75V15a.75.75 0 0 1-1.5 0V6.75A.75.75 0 0 1 9 6Zm6.75 3a.75.75 0 0 0-1.5 0v8.25a.75.75 0 0 0 1.5 0V9Z"
+                    clip-rule="evenodd" />
+                </svg>
+
+                Song Details
+              </a>
+            </li>
+            <li class="nav-items nav-about-us">
+              <a href="about.html" target="_self" class="nav-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="w-6 h-6">
+                  <path
+                    fill-rule="evenodd"
+                    d="M8.25 6.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0ZM15.75 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM2.25 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM6.31 15.117A6.745 6.745 0 0 1 12 12a6.745 6.745 0 0 1 6.709 7.498.75.75 0 0 1-.372.568A12.696 12.696 0 0 1 12 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 0 1-.372-.568 6.787 6.787 0 0 1 1.019-4.38Z"
+                    clip-rule="evenodd" />
+                  <path
+                    d="M5.082 14.254a8.287 8.287 0 0 0-1.308 5.135 9.687 9.687 0 0 1-1.764-.44l-.115-.04a.563.563 0 0 1-.373-.487l-.01-.121a3.75 3.75 0 0 1 3.57-4.047ZM20.226 19.389a8.287 8.287 0 0 0-1.308-5.135 3.75 3.75 0 0 1 3.57 4.047l-.01.121a.563.563 0 0 1-.373.486l-.115.04c-.567.2-1.156.349-1.764.441Z" />
+                </svg>
+
+                About Us
+              </a>
+            </li>
+            <li class="nav-items">
+              <a
+                href="register.html"
+                target="_self"
+                class="nav-link nav-register">
+                Register
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="section--2">
+        <div class="resize--2"></div>
+        <div class="song-details">
+          <header>
+            <div class="details-heading">
+              <div>
+                <img class="song-img" src="" alt="song-details-album" />
+              </div>
+              <div class="song-brief-info">
+                <div class="name-container">
+                  <h1 class="song-name">Baby Come Back</h1>
+                </div>
+                <div class="song-detailed-info">
+                  <div class="singer-name"><p>Player</p></div>
+                  <div class="separator"></div>
+                  <p class="song-year">1977</p>
+                  <div class="separator"></div>
+                  <p class="song-length">3:28</p>
+                </div>
+              </div>
+            </div>
+            <div class="lyrics">
+              <div class="song-lyrics-heading">
+                <h1>Lyrics</h1>
+              </div>
+              <div class="song-lyrics">
+                <p>
+                  Spending all my nights, all my money going out on the town
+                  <br />Doing anything just to get you off of my mind,<br />
+                  yeah But when the morning comes, I'm right back where I
+                  started again <br />And tryna forget you is just a waste of
+                  time <br /><br />
+                  Baby come back, any kind of fool could see <br />There was
+                  something in everything about you <br />
+                  Baby come back, yeah, you can blame it all on me <br />
+                  'Cause I was wrong, and I just can't live without you
+                  <br /><br />
+                  All day long, wearing a mask of false bravado (false bravado)
+                  <br />Tryna keep up a smile that hides a tear (hides a tear)
+                  <br />
+                  But as the sun goes down, I get that empty feeling again
+                  <br />
+                  How I wish to God that you were here <br /><br />
+                  Baby come back, yeah, any kind of fool could see <br />
+                  There was something in everything about you <br />
+                  Baby come back, you can blame it all on me <br />
+                  I was wrong, and I just can't live without you, no
+                  <br /><br />
+                  Now that I put it all together, ooh <br />
+                  Give me the chance to make you see (make you see, baby) <br />
+                  Have you used up all the love in your heart? (Oh) <br />
+                  Nothing left for me? Ain't there nothing left for me?
+                  <br /><br />
+                  Baby come back, any kind of fool could see <br />
+                  There was something in everything about you <br />
+                  Baby come back, you can blame it all on me
+                  <br />
+                  'Cause I w as wrong, and I just can't live without you <br />
+                  <br />Baby I was wrong, and I just can't live <br /><br />
+                  Baby come back
+                </p>
+              </div>
+            </div>
+          </header>
+        </div>
+      </div>
+      <div class="audio-player-song-info">
+        <img
+          src="../Assets/Website Resources/Artists Album/Player.png"
+          alt="aduio-player-song-img"
+          class="audio-player-song-img" />
+        <div class="audio-player-song-details">
+          <p class="audio-player-song-name">Baby Come Back</p>
+          <p class="audio-player-singer">Player</p>
+        </div>
+      </div>
+      <div class="audio-player">
+        <div class="audio-player-container">
+          <audio
+            id="audio"
+            controls="false"
+            src="../Assets/Website Resources/Audio/HYBS - Tip Toe Official Audio.mp3"></audio>
+
+          <img
+            src="../Assets/Website Resources/Icons /loop.png"
+            alt="loop-button"
+            id="loopButton" />
+          <img
+            src="../Assets/Website Resources/Icons /play-button.png"
+            alt="play-button"
+            id="playButton" />
+          <input type="range" class="slider" min="0" max="0" />
+        </div>
+      </div>
+      <div class="section--3">
+        <div class="top-artist">
+          <div class="top-artist-contents">
+            <div class="top-artist-heading">
+              <p>Top Artist</p>
+            </div>
+            <div class="artists artist-1">
+              <div class="artist-img">
+                <img
+                  src="../Assets/Website Resources/Artists Album/Dolly Parton.png"
+                  alt="dolly parton album" />
+              </div>
+              <div class="artist-data">
+                <div class="artist-name"><p>Dolly Parton</p></div>
+                <div class="artist-followers"><p>2.5M Followers</p></div>
+              </div>
+            </div>
+            <div class="artists artist-2">
+              <div class="artist-img">
+                <img
+                  src="../Assets/Website Resources/Artists Album/IMRSQD.png"
+                  alt="dolly parton album" />
+              </div>
+              <div class="artist-data">
+                <div class="artist-name"><p>IMRSQD</p></div>
+                <div class="artist-followers"><p>200K Followers</p></div>
+              </div>
+            </div>
+            <div class="artists artist-3">
+              <div class="artist-img">
+                <img
+                  src="../Assets/Website Resources/Artists Album/Bee Gees.png"
+                  alt="dolly parton album" />
+              </div>
+              <div class="artist-data">
+                <div class="artist-name"><p>Bee Gees</p></div>
+                <div class="artist-followers"><p>5M Followers</p></div>
+              </div>
+            </div>
+            <div class="artists artist-4">
+              <div class="artist-img">
+                <img
+                  src="../Assets/Website Resources/Artists Album/Utha Likumahuwa.png"
+                  alt="dolly parton album" />
+              </div>
+              <div class="artist-data">
+                <div class="artist-name"><p>Utha Likumahuwa</p></div>
+                <div class="artist-followers"><p>1.2M Followers</p></div>
+              </div>
+            </div>
+            <div class="artists artist-5">
+              <div class="artist-img">
+                <img
+                  src="../Assets/Website Resources/Artists Album/Mac Ayres.png"
+                  alt="dolly parton album" />
+              </div>
+              <div class="artist-data">
+                <div class="artist-name"><p>Mac Ayres</p></div>
+                <div class="artist-followers"><p>3M Followers</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Section 2 contents = CTA register, Recommended playlist, trending n recommended songs -->
+      <!-- ini uda bener dibwh -->
+    </div>
+    <script src="../JS/script.js" rel="script"></script>
+    <script src="../JS/register.js" rel="script"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

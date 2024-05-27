@@ -1,0 +1,171 @@
+.nav-about-us a {
+  color: #fa5f1a;
+}
+
+/* SECTION - 2, about.html */
+.section-mission {
+  width: 100%;
+  height: auto;
+  margin: 2rem auto 0 auto;
+}
+
+.section-promise {
+  width: 100%;
+  height: 25vh;
+  margin: 2rem auto 0 auto;
+}
+
+.heading-mission {
+  width: 70%;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(3, 3, 3);
+  margin-bottom: 4.1rem;
+  position: relative;
+}
+
+.heading-mission img {
+  width: 5rem;
+  height: 5rem;
+  top: 0;
+  right: 0;
+  transform: translate(-100%, -12%);
+  position: absolute;
+  opacity: 0.8;
+}
+
+.subheading-willify-mission,
+.subheading-willify-promise {
+  display: flex;
+  font-size: 1rem;
+  margin: 2rem 0rem 1.5rem 2rem;
+}
+
+.subheading-willify-promise {
+  margin-top: 8rem;
+}
+
+.willify-mission,
+.willify-promise {
+  width: 100%;
+  height: 30vh;
+  position: relative;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-mission,
+.content-promise {
+  width: 50%;
+  height: auto;
+  font-weight: 200;
+  margin-left: 1.5rem;
+  color: black;
+}
+
+.content-mission p,
+.content-promise p {
+  font-size: 1.1rem;
+}
+
+.promise-img {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+  z-index: -999;
+}
+
+.mission-img {
+  display: inline-block;
+  width: 25vw;
+  height: auto;
+  transform: scaleX(-1);
+  object-fit: contain;
+  z-index: -999;
+}
+
+.mission-img img,
+.promise-img img {
+  width: 100%;
+}
+
+.section-features {
+  width: 100%;
+  height: 36vh;
+  background-color: #e17241;
+}
+
+.heading-features {
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 1.8rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.features {
+  display: flex;
+  width: 90%;
+  gap: 1.5rem;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.features img {
+  width: 40px;
+  height: 40px;
+}
+
+.features-title {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: space-between;
+}
+
+.features-title p {
+  font-weight: 600;
+}
+
+.subheading-feature {
+  margin-top: 0.7rem;
+}
+
+@media screen and (max-width: 900px) {
+  .features {
+    width: 95%;
+  }
+
+  .features-title p {
+    font-size: 0.9rem;
+  }
+
+  .subheading-feature p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .section--1 {
+    width: auto;
+  }
+
+  .section--2 {
+    width: 85vw;
+  }
+
+  .section--3,
+  .resize--2 {
+    display: none;
+  }
+}
